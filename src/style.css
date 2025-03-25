@@ -1,5 +1,47 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
+.myCard{
+    width: 300px;
+    height: 400px;
+    margin: 2rem;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 1rem;
+}
+#card-header, #card-footer{
+    font-size: 4rem;
+}
+#card-body{
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+}
+#card-footer{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+}
+#card-header{
+    padding-left: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.rojo {
+    color: red;
+  }
+  
+.negro {
+    color: black;
+  }
