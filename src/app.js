@@ -25,15 +25,18 @@ const generarCarta = (arrPalos,arrValor) => {
 
 // Limpiar clases anteriores
    cardHeader.classList.remove('rojo', 'negro');
+   cardBody.classList.remove('rojo', 'negro');
    cardFooter.classList.remove('rojo', 'negro');
 
 
 // Aplicar las clases de color según el palo
   if (paloRandom === '♠' || paloRandom === '♣') {
     cardHeader.classList.add('negro');
+    cardBody.classList.add('negro');
     cardFooter.classList.add('negro');
   } else {
     cardHeader.classList.add('rojo');
+    cardBody.classList.add('rojo');
     cardFooter.classList.add('rojo');
   }
 
@@ -48,7 +51,7 @@ cardButton.addEventListener('click', () => {
 
 window.onload = function() {
   cardHeader.classList.add('rojo');
-  cardBody.classList.add('negro');
+  cardBody.classList.add('rojo');
   cardFooter.classList.add('rojo')
 };
 
