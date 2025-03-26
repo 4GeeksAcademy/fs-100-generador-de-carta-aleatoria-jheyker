@@ -19,6 +19,9 @@ body{
 }
 #card-header, #card-footer{
     font-size: 4rem;
+    padding-left: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
 }
 #card-body{
     font-size: 8rem;
@@ -29,15 +32,9 @@ body{
 
 }
 #card-footer{
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 1.5rem;
+    transform: rotate(180deg);
 }
-#card-header{
-    padding-left: 1.5rem;
-    display: flex;
-    justify-content: flex-start;
-}
+
 .rojo {
     color: red;
   }
